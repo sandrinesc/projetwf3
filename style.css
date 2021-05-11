@@ -1,1 +1,75 @@
-h
+
+#bandeau img{
+   height: 300px;
+   width: 300px;
+   border-radius: 50%;
+   box-shadow: 1px 1px 12px #555;
+   
+}
+
+*{
+   margin:0;
+   padding:0;
+}
+
+body, html{
+   height: 100%; /*Pour pleine hauteur*/
+}
+.logo{
+   margin: auto;
+   
+}
+h1{
+   text-align: center;
+   text-shadow:2px 4px 2px gray;
+   size: 20px;
+   
+}
+
+
+.bg-light{
+   background-color:rgba(131, 71, 102, 0.384)!important;
+   color: rgba(0, 0, 0, 0.767)!important;
+   
+  
+}
+.navbar-brand{
+   color: rgba(0, 0, 0, 0.767)!important;
+}
+.nav-link{
+   color: rgba(0, 0, 0, 0.767)!important;
+}
+h2{
+   text-align: center;
+}
+
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    
+    
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+   
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+    
+    
+     
+}
