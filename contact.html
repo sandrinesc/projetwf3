@@ -1,1 +1,115 @@
-tralala 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <div id="formulaire">
+            <h1>Merci de compléter ce formulaire</h1>
+
+            <form action="validation.html" method="get">
+                <div class="form_item">
+                    <label for="nom" >
+                        Votre nom
+                    </label>
+                    <input type="text" placeholder="Votre nom ici !" name="nom" id="nom">
+                </div>
+
+                <div class="form_item">
+                    <label for="prenom" >
+                        Votre prénom
+                    </label>
+                    <input type="text" placeholder="Votre prénom ici !" name="prenom" id="prenom">
+                </div>
+
+                <div class="form_item">
+                    <label for="email" >
+                        Votre email
+                    </label>
+                    <input type="email" placeholder="nom@email.com" name="email" id="email">
+                </div>
+
+                <div class="form_item">
+                    <label for="password" >
+                        Votre mot de passe
+                    </label>
+                    <input 
+                    type="password" 
+                    placeholder="votre mot de passe" 
+                    name="password" 
+                    id="password"
+                    minlength="8"
+                    >
+                </div>
+
+                <div class="form_item">
+                    <label for="message" >
+                        Votre message
+                    </label>
+                   <textarea 
+                   name="message"
+                   id="message"
+                   maxlength="10"
+                   ></textarea>
+                </div>
+
+                <!-- Choix en menu déroulant -->
+                <div class="form_item">
+                    <label for="ville" >
+                        Votre ville
+                    </label>
+                   <select name="ville" id="ville">
+                    <option value="">-</option>
+                       <option value="paris">Paris</option>
+                       <option value="lille">Lille</option>
+                       <option value="marseille">Marseille</option>
+                   </select>
+                </div>
+
+                <!-- Case à cocher -->
+                <!-- l'attribut checked permet de cocher par défaut la case -->
+                <div class="form_item">
+                    <label for="nouveau">
+                        Nouveau Client
+                    </label> 
+                    <input type="checkbox" name="nouveau" id="nouveau" checked>
+                </div>
+
+                <!-- Un seul choix possible -->
+                <div class="form_item">
+                    <label for="service">
+                        Comptabilité
+                    </label> 
+                    <input type="radio" name="service" id="service" value="comptabilite">
+                    <label for="service">
+                        Commercial
+                    </label> 
+                    <input type="radio" name="service" id="service" value="commercial">
+                </div>
+
+
+                
+
+                <!-- Ici button -->
+                <!-- <input type="submit" value="Valider"> -->
+
+                <button type="submit">Envoyer</button>
+
+
+            </form><!-- Aucun champs après cette ligne -->
+
+
+
+        </div>
+
+    </header><!-- Rien après cette ligne -->
+
+
+
+</body>
+</html>
