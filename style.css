@@ -97,6 +97,77 @@ h2{
 }
 /* Fin Footer */
 
+/*Formulaire partie contact */
+
+header{
+   background-color: rgb(207, 207, 207);
+}
+#formulaire{
+   padding: 20px;
+   width: 400px;
+}
+.form_item{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 20px;
+}
+
+/*Donner du style au formulaire*/
+button{
+   padding: 10px;
+   border: 1px grey dotted;
+   border-radius: 7px;
+   background-color: rgb(98, 98, 217);
+   color: white;
+}
+/*Style au survol*/
+button:hover{
+   background-color:  rgb(59, 59, 131);
+}
+/*Style aux inputs
+Pour faire [] sur Windows altGr + 5
+Pour faire [] sur Mac     option + shift + 5
+*/
+input[type=text], 
+input[type=email], 
+input[type=password]{
+padding: 10px;
+}
+/*Donner du style aux placeholder*/
+::placeholder,
+select#pays{
+   color: red;
+   text-align: right;
+}
+
+/*PAGE VALIDATION*/
+*{
+   /* border: 1px red solid; */
+}
+/*100% pour html, body*/
+.validation{
+   height: 100%;
+}
+
+#validPage{
+   background-image: url('success.jpg');
+   height: 100%;
+   background-size: cover;
+   padding: 30%;
+   background-repeat: no-repeat;
+}
+#messageText{
+   color: purple;
+   background-color: white;
+   margin: 0 auto;/*Centrer en largeur*/
+   padding: 20px;/*Eloigner le texte des bords*/
+   text-align: center;
+}
+/* Fin Formulaire partie contact */
+
+
+
 
 
 
