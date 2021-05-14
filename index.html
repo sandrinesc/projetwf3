@@ -11,6 +11,8 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap" rel="stylesheet"> 
     <title>Christine Magnétisme</title>
   </head>
   <body>
@@ -18,185 +20,137 @@
 
         
     
-        <nav class="navbar navbar-expand-lg navbar-light bg-light mx-auto fixed">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Accueil
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <li><a class="dropdown-item" href="#">Qui suis-je ?</a></li>
-                          <li><a class="dropdown-item" href="#">Le Magnétisme</a></li>
-                          <li><a class="dropdown-item" href="#">Séances</a></li>
-                          <li><a class="dropdown-item" href="#">Tarifs</a></li>
-                        </ul>
-                      </li>
-                  <li class="nav-item">
-                    <a class="nav-link " href="#">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Prise de rendez-vous</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Livre d'or</a>
-                  </li>
-                  
+
+
+    <div class="logo" id="main">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-light mx-auto fixed my-100">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Accueil
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Qui suis-je ?</a></li>
+                  <li><a class="dropdown-item" href="#">Le Magnétisme</a></li>
+                  <li><a class="dropdown-item" href="#">Tarifs</a></li>
                 </ul>
-              </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Séances</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Prendre rendez-vous</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Livre d'or</a>
+              </li> 
+              </ul>
             </div>
-          </nav>
-          <div class="logo">
-            <h1>Christine Magnétisme</h1>
-          </div>
+        </div>
+      </nav>
 
-      </div>
-      <div class="container-fluid">
-        <div class="row mt-5">
+      <div id="titre"><h1>Christine Magnétisme</h1></div>
+    </div>
+
+        <div class="container-fluid" id="description">
+      <div class="row mt-5">
+        
+        <div id="presentation" class="col-sm-4 text-center">
+          <h2>Qui suis-je ?</h2>
+          <P>Diplômée "Maitre Praticien en Magnétisme", j’exerce sur Jouy le Moutier, commune située au cœur du Val d'Oise (95).
+          Mon activité consiste à soulager les personnes (enfants et adultes) par un rétablissement de l’équilibre et la remise en circulation des<strong>énergies intérieures.</strong></P>
+          <h2>le magnetisme</h2>
+          <P>Les Magnétiseurs sont aptes à ressentir véritablement votre souffrance. Du
+          fait de cette extrême empathie, votre praticien localise les zones de
+          tensions et transmet à votre organisme l'énergie nécessaire à sa guérison.
+          Il permet de soigner de nombreux maux, des problèmes respiratoires à la
+          dépression, les douleurs articulaires, celles liées à la sciatique, les
+          allergies, les maux de tête ou une brûlure.
+          Le magnétisme<strong>ne peut pas guérir les maladies graves</strong> , Il peut toutefois être pratiqué en complément de la prise de médicament et soulager les
+          maux post-opératoires.<br>
+          <strong>Votre magnétiseur ne vous demandera jamais de stopper votre traitement
+          médical</strong></P>
+        </div> <!--Fermeture div col-->
+
+            
+
+<!-- <canvas id="canvas1"></canvas>-->
+
+        <div id="bandeau" class="col-sm-4 text-center">
+          <img src="img/rose.jpg" alt="photo d'une rose">
+        </div> <!--Fermeture div col-->
+        <div id="magnetisme" class="col-sm-4 text-center">
+          <h2>Les Séances</h2>
+          <strong>séance à Domicile</strong>
+          Après un bilan succinct sur l’état général du consultant (qui restera habillé,
+          assis ou allongé sur la table de soin), nous échangeons sur le motif de sa
+          venue, sur les troubles dont il souffre.
+          Je précise que durant la séance il m'arrive de poser mes mains sur le corps
+          du consultant à condition que la personne soit d'accord. Je transmets
+          l'énergie par les mains et par le souffle pour l'harmonisation.
+          <br>
+          <br>
           
-          <div id="presentation" class="col-sm-4 text-center">
-            <h2>Qui suis-je ?</h2>
-            <div class="accordion" id="accordionPanelsStayOpenExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                    Me Connaître
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                  <div class="accordion-body">
-                    Diplômée "Maitre Praticien en Magnétisme", j’exerce sur Jouy le Moutier, commune située au cœur du Val d'Oise (95).
-Mon activité consiste à soulager les personnes (enfants et adultes) par un rétablissement de l’équilibre et la remise en circulation des énergies intérieures.
+          <strong>séance à distance</strong>
+          Grâce à une concentration maîtrisée, Je pratique des soins magnétiques à distance
+          (par téléphone ou en visio) : je transmets de l'énergie au consultant , où qu'elle se trouve (en France ou à l';étranger).
+          Les résultats obtenus sont équivalents à ceux observés en cabinet.
+          <br>
+          <strong>Après une séance de magnétisme</strong> 
+          <br>
+          En fonction de la capacité de réceptivité de chacun, les effets peuvent être ressentis à court ou moyen terme.
+          Un espacement de 3 semaines sera nécessaire entre chaque séance.
+          <br>
 
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                   le magnetisme
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                  <div class="accordion-body">
-                    Les Magnétiseurs sont aptes à ressentir véritablement votre souffrance. Du
-                    fait de cette extrême empathie, votre praticien localise les zones de
-                    tensions et transmet à votre organisme l&#39;énergie nécessaire à sa guérison.
-                    Il permet de soigner de nombreux maux, des problèmes respiratoires à la
-                    dépression, les douleurs articulaires, celles liées à la sciatique, les
-                    allergies, les maux de tête ou une brûlure.
-                    Le magnétisme ne peut pas guérir les maladies graves, Il peut toutefois
-                    être pratiqué en complément de la prise de médicament et soulager les
-                    maux post-opératoires.<br>
-                    <strong>Votre magnétiseur ne vous demandera jamais de stopper votre traitement
-                      médical
-                      </strong>
-                  </div>
-                </div>
-              </div>
+          <strong>Nombre de séances :</strong>  1 à 3 séances selon les pathologies.
+          <br>
+
+          <p><strong>Pour qui ?</strong></p>
+          Adultes, Adolescents, Enfants et Séniors, Animaux de compagnie.
+          <br>
+          Bien qu’il ne remplace pas un médecin, le magnétiseur peut aider à
+          soulager de nombreux dysfonctionnements tels que : 
+          <li>Stress, angoisse, insomnie, fatigue,</li>
+          <li>Bronchite, sinusite, otite,</li>
+          <li>Torticolis, douleurs de dos, sciatique,</li>
+          <li>Rhumatisme, tendinite,</li>
+          <li>Brûlure, verrue,</li>
+          <li>Zona, Eczéma, Psoriasis</li>
+          <li>Migraine, douleurs menstruelles, douleurs dentaires</li>
+          <li>Gastralgie, troubles digestifs, constipation, diarrhée.</li>
+          <br>
+          <strong>liste non exhaustive.</strong>
+          
+          Les Tarifs
+          <strong>A domicile : </strong>
+          <br>
+          <li> un rayon de 10 km : 60 €</li>
+          <br>
+          <li>Au-delà de 10km : facturation à 0,50€ du km</li>
+          <br>
+          <strong>Séance à distance : </strong>
+          <br>
+          <li>Consultation par téléphone : 40€</li>
+
+        </div> <!--Fermeture div col-->
               
-            </div>
-           
-            <!-- <canvas id="canvas1"></canvas>-->
-
-          </div>
-          <div id="bandeau" class="col-sm-4 text-center">
-            <img src="img/rose.jpg" alt="photo d'une rose">
-          </div>
-          <div id="magnetisme" class="col-sm-4 text-center">
-            
-            <h2>Les Séances</h2>
-            <div class="accordion" id="accordionPanelsStayOpenExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                    Déroulement d'une seance.
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                  <div class="accordion-body">
-                    <strong>séance à Domicile</strong>
-                    Après un bilan succinct sur l’état général du consultant (qui restera habillé,
-                    assis ou allongé sur la table de soin), nous échangeons sur le motif de sa
-                    venue, sur les troubles dont il souffre.
-                    Je précise que durant la séance il m&#39;arrive de poser mes mains sur le corps
-                    du consultant à condition que la personne soit d&#39;accord. Je transmets
-                    l&#39;énergie par les mains et par le souffle pour l&#39;harmonisation.
-                    <br>
-                    <br>
-                    
-                    <strong>séance à distance</strong>
-                    Grâce à une concentration maîtrisée, Je pratique des soins magnétiques à distance
-                    (par téléphone ou en visio) : je transmets de l&#39;énergie au consultant , où qu&#39;elle se
-                    trouve (en France ou à l&#39;étranger).
-                    Les résultats obtenus sont équivalents à ceux observés en cabinet.
-                    Après une séance de magnétisme
-                    En fonction de la capacité de réceptivité de chacun, les effets peuvent être
-                    ressentis à court ou moyen terme.
-                    Un espacement de 3 semaines sera nécessaire entre chaque séance.
-                    <br>
-
-
-                    <strong>Nombre de séances :</strong>  1 à 3 séances selon les pathologies
-                   
-             
-                   Adultes, Adolescents, Enfants et Séniors - Animaux de compagnie
-                    Bien qu’il ne remplace pas un médecin, le magnétiseur peut aider à
-                    soulager de nombreux dysfonctionnements tels que (liste non exhaustive) :
-                     Stress, angoisse, insomnie, fatigue
-                     Bronchite, sinusite, otite
-                     Torticolis, douleurs de dos, sciatique
-                     Rhumatisme, tendinite,
-                     Brûlure, verrue
-                     Zona, Eczéma, Psoriasis
-                     Migraine, douleurs menstruelles, douleurs dentaires
-                     Gastralgie, troubles digestifs, constipation, diarrhée
-
-                    
-
-                    
-                  </div>
-                </div>
-              </div>
-              
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                    Les Tarifs
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                  <div class="accordion-body">
-                    <strong>A domicile : </strong>
-                    <br>
-
-                    <li> un rayon de 10 km : 60 €</li>
-                    <br>
-                    <li>Au-delà de 10km : facturation à 0,50€ du km</li>
-                    <br>
-                    <strong>Séance à distance : </strong>
-                    <br>
-                     <li>Consultation par téléphone : 40€</li>
-                    
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-          </div>
-
+          
         </div><!-- fermeture de row -->
 
 
 
         
 
-      </div><!-- fermeture de la div -->
+      </div><!-- fermeture de container -->
       
       
 
